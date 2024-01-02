@@ -1,0 +1,161 @@
+#HTML CODE
+****************************************************************************************
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Ambrish Singh</h1>
+        <p>Software Engineering Student</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <img src="coolDog.jpg" alt="Ambrish Singh">
+        <p>
+            Welcome to my portfolio! I am a passionate software engineering student with expertise in Java, Python, C, C++, and web development. I have successfully completed projects like Malicious URL Detector, Employee Data Tracker, Covid Tracking Record System, and a Task Tracking and Collaboration Tool.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Web Development (HTML, CSS, JavaScript)</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Malicious URL Detector</h3>
+            <p>Developed an efficient system for detecting malicious URLs, enhancing cybersecurity measures.</p>
+            <!-- Add project image if available -->
+        </div>
+        <div class="project">
+            <h3>Employee Data Tracker</h3>
+            <p>Created a streamlined system for managing and tracking employee data, improving HR processes.</p>
+            <!-- Add project image if available -->
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume <a href="your-resume.pdf" target="_blank">here</a>.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: singhambrish212@gmail.com</p>
+        <p>Phone: 1233456789</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Ambrish Singh. All Rights Reserved.</p>
+        <!-- Add additional links or information if needed -->
+    </footer>
+</body>
+
+</html>
+*********************************************************************************
+
+#CSS CODE
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+   color: white;
+}
+
+ h2, h3 {
+    color: #333;
+}
+
+#about {
+    text-align: center;
+    padding: 40px;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+}
+
+#skills,
+#projects,
+#resume,
+#contact {
+    background-color: #fff;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
