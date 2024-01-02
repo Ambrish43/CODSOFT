@@ -1,0 +1,84 @@
+#HTML CODE
+****************************************************************************************
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landingstyle.css">
+    <title>Your Landing Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>STYLE SPHERE</h1>
+        <p>Welcome to our awesome landing page!</p>
+    </header>
+
+    <section class="main-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>A communication platform between customers and local retailers</p>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Safe Transactions</li>
+                <li>Verified Retailers</li>
+                <li>Trust of Local</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Style Sphere. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+*********************************************************************************
+
+#CSS CODE
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.main-section,
+.features-section {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
